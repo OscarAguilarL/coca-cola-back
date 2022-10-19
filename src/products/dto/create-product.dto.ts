@@ -3,6 +3,7 @@ import {
   IsOptional,
   IsPositive,
   IsString,
+  IsUrl,
   MinLength,
 } from 'class-validator';
 
@@ -19,4 +20,8 @@ export class CreateProductDto {
   @IsString()
   @IsOptional()
   description?: string;
+
+  @IsString()
+  @IsUrl()
+  image_url: string;
 }

@@ -15,4 +15,7 @@ export class Product {
 
   @Column('numeric', { default: 0 })
   price: number;
+
+  @Column('text')
+  image_url: string;
 }
