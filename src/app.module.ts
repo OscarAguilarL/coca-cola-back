@@ -15,6 +15,10 @@ import { ContactFormModule } from './contact-form/contact-form.module';
       username: process.env.DB_USER,
       password: process.env.DB_PASSWORD,
       autoLoadEntities: true,
+      ssl:
+        process.env.NODE_ENV === 'production'
+          ? { rejectUnauthorized: false }
+          : false,
       synchronize: true,
     }),
     ProductsModule,
