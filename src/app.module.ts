@@ -3,6 +3,8 @@ import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ProductsModule } from './products/products.module';
 import { ContactFormModule } from './contact-form/contact-form.module';
+import { SeedModule } from './seed/seed.module';
+import { CommonModule } from './common/common.module';
 
 @Module({
   imports: [
@@ -23,6 +25,8 @@ import { ContactFormModule } from './contact-form/contact-form.module';
     }),
     ProductsModule,
     ContactFormModule,
+    SeedModule,
+    CommonModule,
   ],
 })
 export class AppModule {}
