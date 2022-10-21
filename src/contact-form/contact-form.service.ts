@@ -9,13 +9,12 @@ export class ContactFormService {
   constructor(
     @InjectRepository(ContactForm)
     private readonly contactFormRepository: Repository<ContactForm>,
-  ) {
-  }
-
+  ) {}
 
   async create(createContactFormDto: CreateContactFormDto) {
     try {
-      const contactForm = this.contactFormRepository.create(createContactFormDto);
+      const contactForm =
+        this.contactFormRepository.create(createContactFormDto);
       await this.contactFormRepository.save(contactForm);
 
       return contactForm;
