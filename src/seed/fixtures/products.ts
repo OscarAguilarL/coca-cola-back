@@ -1,143 +1,142 @@
 const products = [
   {
-    title: 'Modern Wooden Table',
-    description:
-      'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
-    price: 685.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'CocaCola 600 ml',
+    description: 'Bebida sabor cola de 600 ml',
+    price: 18,
+    image_url:
+      'https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00000007500761L.jpg',
   },
   {
-    title: 'Bespoke Steel Keyboard',
-    description:
-      'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
-    price: 77.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Fanta 3L',
+    description: 'Refresco sabor naranja de 3 L',
+    price: 34,
+    image_url:
+      'https://anyhow.mx/wp-content/uploads/2021/06/Fanta-naranja-3-Lt-anyhow.jpg',
   },
   {
-    title: 'Unbranded Soft Gloves',
-    description:
-      'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
-    price: 536.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Squirt 2L',
+    description: 'Refreco sabor toronja 2L',
+    price: 23,
+    image_url:
+      'https://calimaxmx.vtexassets.com/arquivos/ids/183820/7501071120305.png?v=637312258308870000',
   },
   {
-    title: 'Tasty Cotton Computer',
-    description:
-      'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
-    price: 406.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Sprite 3 L',
+    description: 'Refresco Sprite 3 L',
+    price: 34,
+    image_url:
+      'https://www.merqueya.com/wp-content/uploads/2021/04/sprite3l.png',
   },
   {
-    title: 'Handmade Cotton Pizza',
-    description:
-      'Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals',
-    price: 441.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Schweppes 1L',
+    description: 'Refresco Schweppes sabor ginger ale botella de 1 L',
+    price: 18,
+    image_url: 'https://m.media-amazon.com/images/I/51-dD0VtHFL._AC_SX385_.jpg',
   },
   {
-    title: 'Recycled Granite Shirt',
-    description:
-      'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
-    price: 951.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Sidral Mundet 600ml',
+    description: 'Refresco Sidral Mundet sabor manzana de 600 ml',
+    price: 15,
+    image_url:
+      'https://www.movil.farmaciasguadalajara.com/wcsstore/FGCAS/wcs/products/1108557_A_1280_AL.jpg',
   },
   {
-    title: 'Gorgeous Frozen Chips',
-    description:
-      'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
-    price: 480.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Mirinda 2L',
+    description: 'Refresco Mirinda sabor naranja 2 l',
+    price: 23,
+    image_url:
+      'https://media.justo.mx/__sized__/products/750103134505-thumbnail-255x255-70.jpg',
   },
   {
-    title: 'Licensed Plastic Ball',
-    description:
-      'The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J',
-    price: 536.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Dr. Pepper 600 ml',
+    description: 'Refresco Dr. Pepper botella de 600 ml',
+    price: 14,
+    image_url:
+      'https://www.movil.farmaciasguadalajara.com/wcsstore/FGCAS/wcs/products/1082701_A_1280_AL.jpg',
   },
   {
-    title: 'Oriental Frozen Bike',
-    description:
-      'Carbonite web goalkeeper gloves are ergonomically designed to give easy fit',
-    price: 122.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Señorial 2L',
+    description: 'Refresco Señorial sabor sangría 2 l',
+    price: 34.5,
+    image_url:
+      'https://http2.mlstatic.com/D_NQ_NP_735283-MLM49360800529_032022-O.jpg',
   },
   {
-    title: 'Bespoke Metal Shoes',
-    description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    price: 317.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Canada Dry 1L',
+    description: 'Refresco Canada Dry sabor ginger ale 1 l',
+    price: 15,
+    image_url:
+      'https://trico.com.mx/wp-content/uploads/2020/09/ref_canadry_1.jpg',
   },
   {
-    title: 'Incredible Concrete Ball',
-    description:
-      'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
-    price: 244.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Chaparritas 250 ml',
+    description: 'Refresco Chaparritas sabor mandarina botella de 250 ml',
+    price: 8.5,
+    image_url:
+      'https://www.heb.com.mx/media/catalog/product/cache/9f5ec31302878493d9ed0ac40a398e12/7/2/721644_image.png',
   },
   {
-    title: 'Unbranded Concrete Shoes',
-    description:
-      'Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support',
-    price: 569.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Crush 2l',
+    description: 'Refresco Crush sabor lima limón 2 l',
+    price: 19,
+    image_url: 'https://subodega.mx/articulo/41154/01.webp',
   },
   {
-    title: 'Electronic Steel Mouse',
+    title: 'malta Maltín Polar 355 ml c/u',
     description:
-      'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
-    price: 195.0,
-    image_url: 'http://loremflickr.com/640/480',
+      'Bebida de malta Maltín Polar sin alcohol 6 botellas de 355 ml c/u',
+    price: 185,
+    image_url:
+      'https://http2.mlstatic.com/D_NQ_NP_958224-MLM45381004759_032021-V.jpg',
   },
   {
-    title: 'Awesome Granite Chicken',
-    description:
-      'The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality',
-    price: 8.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Peñafiel Adas 600M',
+    description: 'Agua mineral Peñafiel Adas ligera sabor naranja 600 ml',
+    price: 13,
+    image_url:
+      'https://media.justo.mx/__sized__/products/Penafiel_Agua_mineral_ligera_Naranjada_botella_600ml-thumbnail-255x255-70.jpg',
   },
   {
-    title: 'Recycled Concrete Chips',
-    description:
-      'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
-    price: 103.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Agua mineral 1L',
+    description: 'Agua mineral Peñafiel 1 l',
+    price: 13,
+    image_url:
+      'https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750107383050L4.jpg',
   },
   {
-    title: 'Sleek Rubber Chair',
-    description:
-      'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
-    price: 977.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Jarritos 2l',
+    description: 'Refresco Jarritos sabor limón 2 l',
+    price: 20,
+    image_url:
+      'https://cdn.shopify.com/s/files/1/0481/7387/5367/products/jarrlimon_large.jpg?v=1608827244',
   },
   {
-    title: 'Tasty Cotton Chips',
-    description:
-      'The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients',
-    price: 8.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Coca Cola 3L',
+    description: 'Refresco Coca Cola botella de 3 l',
+    price: 42,
+    image_url:
+      'http://cdn.shopify.com/s/files/1/0607/1710/5395/products/Foto_189.jpg?v=1643739275',
   },
   {
-    title: 'Licensed Granite Shoes',
-    description:
-      'New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016',
-    price: 685.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Coca Cola 12 latas de 355 ml c/u',
+    description: 'Refresco Coca Cola 12 latas de 355 ml c/u',
+    price: 165,
+    image_url:
+      'https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750105534942L.jpg',
   },
   {
-    title: 'Recycled Wooden Chicken',
-    description:
-      'The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive',
-    price: 338.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Coca Cola sin azúcar 2.5 L',
+    description: 'Refresco Coca Cola sin azúcar de 2.5 l',
+    price: 25,
+    image_url:
+      'https://www.heb.com.mx/media/catalog/product/cache/9f5ec31302878493d9ed0ac40a398e12/6/0/607674_image-1663033324.png',
   },
   {
-    title: 'Recycled Granite Cheese',
-    description:
-      "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-    price: 367.0,
-    image_url: 'http://loremflickr.com/640/480',
+    title: 'Coca Cola light 1L',
+    description: 'Refresco Coca Cola light botella de 1 l',
+    price: 22,
+    image_url:
+      'https://res.cloudinary.com/walmart-labs/image/upload/d_default.jpg/w_960,dpr_auto,f_auto,q_auto:best/gr/images/product-images/img_large/00750105530534L4.jpg?odnHeight=80&odnWidth=80&odnBg=FFFFFF',
   },
 ];
 
