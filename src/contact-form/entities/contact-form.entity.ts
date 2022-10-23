@@ -1,13 +1,20 @@
-import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import {
+  Column,
+  CreateDateColumn,
+  Entity,
+  PrimaryGeneratedColumn,
+} from 'typeorm';
 
 @Entity()
 export class ContactForm {
-
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
   @Column('text')
   name: string;
+
+  @Column('text')
+  email: string;
 
   @Column('text')
   address: string;
