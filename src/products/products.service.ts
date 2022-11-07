@@ -5,7 +5,7 @@ import {
   Logger,
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { DataSource, Repository } from 'typeorm';
 import { CreateProductDto } from './dto/create-product.dto';
 import { Product } from './entities/product.entity';
 
@@ -16,17 +16,27 @@ export class ProductsService {
   constructor(
     @InjectRepository(Product)
     private readonly productRepository: Repository<Product>,
+    private dataSource: DataSource,
   ) {}
 
   async create(createProductDto: CreateProductDto) {
+    const queryRunner = this.dataSource.createQueryRunner();
+    await queryRunner.connect();
+    await queryRunner.startTransaction();
     try {
       const product = this.productRepository.create(createProductDto);
-      await this.productRepository.save(product);
+      // await this.productRepository.save(product);
+
+      await queryRunner.manager.save(product);
+      await queryRunner.commitTransaction();
 
       return product;
     } catch (err) {
       console.log(err);
+      await queryRunner.rollbackTransaction();
       throw new InternalServerErrorException(err);
+    } finally {
+      queryRunner.release();
     }
   }
 
